@@ -1,23 +1,27 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
-import Child from './Child';
+import List from './List';
 
-class App extends Component {
+export default class App extends Component {
   render() {
+
+    const header = this.props.title
+      ? <header className="App-header">
+          <h1 className="App-title">{this.props.title}</h1>
+        </header>
+      : null;
+
+
+    const items = ['foo', 'bar', 'baz'];
+
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">App Title</h1>
-        </header>
+        {header}
         <p className="App-intro">
           App Introduction
         </p>
-        <Child/>
+        <List items={items} />
       </div>
     );
   }
 }
-
-export default App;

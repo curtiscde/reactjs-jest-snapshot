@@ -1,8 +1,11 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 import App from './App';
+import List from './List';
 
-describe('App', () => {
+jest.mock('./List', () => () => (<list/>));
+
+describe('App - Mocking', () => {
 
   it('matches snapshot with title', () => {
     const tree = renderer

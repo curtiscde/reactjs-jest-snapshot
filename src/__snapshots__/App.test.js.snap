@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App matches snapshot when no title 1`] = `
+<div
+  className="App"
+>
+  <p
+    className="App-intro"
+  >
+    App Introduction
+  </p>
+  <ul>
+    <li>
+      foo
+    </li>
+    <li>
+      bar
+    </li>
+    <li>
+      baz
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`App matches snapshot with title 1`] = `
+<div
+  className="App"
+>
+  <header
+    className="App-header"
+  >
+    <h1
+      className="App-title"
+    >
+      Example Title
+    </h1>
+  </header>
+  <p
+    className="App-intro"
+  >
+    App Introduction
+  </p>
+  <ul>
+    <li>
+      foo
+    </li>
+    <li>
+      bar
+    </li>
+    <li>
+      baz
+    </li>
+  </ul>
+</div>
+`;
