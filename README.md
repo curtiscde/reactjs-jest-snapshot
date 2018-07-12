@@ -1,0 +1,1 @@
+# reactjs-jest-snapshot
