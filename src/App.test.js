@@ -4,7 +4,13 @@ import App from './App';
 
 describe('App', () => {
 
-  it('matches snapshot', () => {
+  it('matches snapshot with title', () => {
+    const tree = renderer
+      .create(<App title="Example Title"/>);
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('matches snapshot when no title', () => {
     const tree = renderer
       .create(<App/>);
     expect(tree).toMatchSnapshot();
