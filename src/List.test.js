@@ -1,12 +1,12 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import SampleText from './SampleText';
+import List from './List';
 
-describe('SampleText', () => {
+describe('List', () => {
 
   it('matches snapshot', () => {
     const tree = renderer
-      .create(<SampleText/>);
+      .create(<List/>);
     expect(tree).toMatchSnapshot();
   });
 

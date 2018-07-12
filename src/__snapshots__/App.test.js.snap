@@ -7,11 +7,6 @@ exports[`App matches snapshot 1`] = `
   <header
     className="App-header"
   >
-    <img
-      alt="logo"
-      className="App-logo"
-      src="logo.svg"
-    />
     <h1
       className="App-title"
     >

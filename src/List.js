@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 
-export default class SampleText extends Component {
+export default class List extends Component {
     render() {
+
         return (
             <div>
                 SampleText Component

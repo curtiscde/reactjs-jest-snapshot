@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
-import SampleText from './SampleText';
+import List from './List';
 
-class App extends Component {
+export default class App extends Component {
   render() {
     return (
       <div className="App">
@@ -12,10 +12,8 @@ class App extends Component {
         <p className="App-intro">
           App Introduction
         </p>
-        <SampleText lines='1' />
+        <List lines='1' />
       </div>
     );
   }
 }
-
-export default App;
