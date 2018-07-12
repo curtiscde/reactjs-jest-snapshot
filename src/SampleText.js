@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 
-export default class Child extends Component {
+export default class SampleText extends Component {
     render() {
         return (
             <div>
-                Child Component
+                SampleText Component
             </div>
         )
     }

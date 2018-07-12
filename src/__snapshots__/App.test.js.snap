@@ -24,7 +24,7 @@ exports[`App matches snapshot 1`] = `
     App Introduction
   </p>
   <div>
-    Child Component
+    SampleText Component
   </div>
 </div>
 `;
