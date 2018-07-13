@@ -9,6 +9,9 @@ exports[`App matches snapshot when no title 1`] = `
   >
     App Introduction
   </p>
+  <h2>
+    First List
+  </h2>
   <ul>
     <li>
       foo
@@ -18,6 +21,20 @@ exports[`App matches snapshot when no title 1`] = `
     </li>
     <li>
       baz
+    </li>
+  </ul>
+  <h2>
+    Second List
+  </h2>
+  <ul>
+    <li>
+      Lorem
+    </li>
+    <li>
+      ipsum
+    </li>
+    <li>
+      dolor
     </li>
   </ul>
 </div>
@@ -41,6 +58,9 @@ exports[`App matches snapshot with title 1`] = `
   >
     App Introduction
   </p>
+  <h2>
+    First List
+  </h2>
   <ul>
     <li>
       foo
@@ -50,6 +70,20 @@ exports[`App matches snapshot with title 1`] = `
     </li>
     <li>
       baz
+    </li>
+  </ul>
+  <h2>
+    Second List
+  </h2>
+  <ul>
+    <li>
+      Lorem
+    </li>
+    <li>
+      ipsum
+    </li>
+    <li>
+      dolor
     </li>
   </ul>
 </div>

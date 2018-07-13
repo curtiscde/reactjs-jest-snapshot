@@ -12,7 +12,9 @@ export default class App extends Component {
       : null;
 
 
-    const items = ['foo', 'bar', 'baz'];
+    const items1 = ['foo', 'bar', 'baz'];
+
+    const items2 = ['Lorem', 'ipsum', 'dolor'];
 
     return (
       <div className="App">
@@ -20,7 +22,10 @@ export default class App extends Component {
         <p className="App-intro">
           App Introduction
         </p>
-        <List items={items} />
+        <h2>First List</h2>
+        <List items={items1} />
+        <h2>Second List</h2>
+        <List items={items2} />
       </div>
     );
   }

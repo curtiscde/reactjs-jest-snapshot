@@ -9,6 +9,13 @@ exports[`App - Mocking matches snapshot when no title 1`] = `
   >
     App Introduction
   </p>
+  <h2>
+    First List
+  </h2>
+  <list />
+  <h2>
+    Second List
+  </h2>
   <list />
 </div>
 `;
@@ -31,6 +38,13 @@ exports[`App - Mocking matches snapshot with title 1`] = `
   >
     App Introduction
   </p>
+  <h2>
+    First List
+  </h2>
+  <list />
+  <h2>
+    Second List
+  </h2>
   <list />
 </div>
 `;
